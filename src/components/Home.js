@@ -1,4 +1,3 @@
-import blob from "../assets/profile.svg";
 import profile from "../assets/profile.jpg";
 import { SiTailwindcss } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
@@ -10,9 +9,11 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import "../index.css"; 
 
+
 export default function Home() {
   return (
     <div>
+    
       <div className='flex flex-col-reverse  p-2  lg:flex-row items-center lg:mt-[4rem] mt-[84px]'>
         <div className=" w-full lg:w-1/2 lg:h-[700px]">
           <div className="lg:ml-[60px] mt-[40px] lg:mt-[120px] flex flex-col">
@@ -22,13 +23,12 @@ export default function Home() {
             </div>
             <div className="text-[40px] font-bold text-center my-4 lg:text-left">I am Hardik Garg!</div>
             <div className="text-[1.2rem] text-center text-[gray] mb-5 lg:text-left">Full stack developer</div>
-            <div className="text-[1.2rem] text-center text-[gray] lg:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis itaque possimus, quidem placeat omnis, officia deleniti animi tempora maiores doloribus earum minima cum debitis, consequatur dolore? Ullam qui numquam quis.
-            Autem earum illo, repudiandae distinctio velit neque aspernatur porro cupiditate exercitationem recusandae maiores aperiam voluptate minus expedita ad, fuga molestias vero explicabo aut omnis eos veniam! Reprehenderit tenetur unde magnam.</div>
+            <div className="text-[1.2rem] text-center text-[gray] lg:text-left">Hello, I'm Hardik Garg, a highly motivated and ambitious individual with a burning passion for learning new technologies. I possess a relentless drive to excel in the world of technology and a strong desire to leverage my skills to create innovative solutions that shape the future.</div>
           </div>
         </div>
         <div className=" w-full flex justify-center items-center lg:w-1/2 lg:h-[700px]">
           <div className=" lg:h-[450px] lg:w-[450px] mx-[40px] md:mx-[100px]">
-            <img src={profile} className="bg-cover bg-center animate-myAnime rounded-full"></img>
+            <img src={profile} alt={"maker"} className="bg-cover bg-center animate-myAnime rounded-full"></img>
           </div>
           {/* <img src={blob} className="z-0 absolute"></img> */}
         </div>
